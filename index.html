@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Yujiaxin 的个人主页" />
+    <meta name="theme-color" content="#f4f1ea" />
+    <title>Yujiaxin — 个人主页</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="返回首页">YJX<span>.</span></a>
+      <nav>
+        <a href="#about">关于</a>
+        <a href="#work">作品</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="eyebrow"><span></span> HELLO, WORLD</div>
+        <h1 id="hero-title">你好，我是<br /><em>Yujiaxin</em></h1>
+        <p class="hero-copy">我喜欢把好奇心变成作品，也相信简洁、真诚和持续创造的力量。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">看看我的作品 <span aria-hidden="true">↘</span></a>
+          <a class="button secondary" href="#contact">和我聊聊</a>
+        </div>
+        <div class="orbit" aria-hidden="true">
+          <span class="orbit-dot"></span>
+          <span class="orbit-text">THINK · MAKE · SHARE · </span>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <p class="section-label">01 / 关于我</p>
+        <div class="section-grid">
+          <h2>保持好奇，<br />认真生活。</h2>
+          <div class="prose">
+            <p>这是我的一小块互联网空间，用来记录正在做的事、学到的东西，以及偶尔冒出来的灵感。</p>
+            <p>我正在持续完善这里。下一次来访时，也许会看到新的项目与故事。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="work">
+        <div class="section-heading">
+          <p class="section-label">02 / 最近作品</p>
+          <h2>正在创造</h2>
+        </div>
+        <div class="projects">
+          <article class="project project-featured">
+            <div class="project-number">01</div>
+            <div>
+              <p class="tag">PERSONAL · 2026</p>
+              <h3>个人主页</h3>
+              <p>从零开始搭建的数字名片，记录想法、作品与成长。</p>
+            </div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="project project-empty">
+            <div class="project-number">02</div>
+            <div>
+              <p class="tag">COMING SOON</p>
+              <h3>下一个项目</h3>
+              <p>新的作品正在路上，敬请期待。</p>
+            </div>
+            <span class="project-arrow" aria-hidden="true">＋</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <p class="section-label">03 / 保持联系</p>
+        <h2>有个好点子？<br /><em>一起聊聊。</em></h2>
+        <a class="contact-link" href="https://github.com/jiaxinyu424-arch" target="_blank" rel="noreferrer">
+          在 GitHub 找到我 <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> Yujiaxin</span>
+      <span>用好奇心制作</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
